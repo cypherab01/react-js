@@ -5,7 +5,7 @@ function App() {
 
   const handleCounterAdd = (value: number) => {
     setCounter((prevValue) => prevValue + value);
-    console.log(counter);
+    console.log(counter + value);
   };
 
   const handleReset = () => {
